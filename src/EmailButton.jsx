@@ -1,4 +1,4 @@
-import emailIcon from "./assets/img/email.svg";
+import emailIcon from "./assets/img/email-w.svg";
 
 export default function EmailButton() {
   return (
