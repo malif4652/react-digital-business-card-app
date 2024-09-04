@@ -3,7 +3,7 @@ export default function Profile() {
     <div className="profile">
       <img
         className="profile--image"
-        src="src/assets/profile.jpg"
+        src="src/assets/img/profile.jpg"
         alt="profile"
       />
       <h1>Md. Alif Dewan</h1>
