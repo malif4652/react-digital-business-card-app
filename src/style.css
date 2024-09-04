@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: "DM Sans";
-  background-color: rgba(0, 0, 0, 0.922);
+  background-color: rgb(21, 21, 21);
 }
 
 h1,
@@ -28,8 +28,8 @@ p {
 
 .card {
   margin: 20vh 0;
-  width: 30vw;
-  background-color: rgb(223, 236, 255);
+  width: 35vw;
+  background-color: rgb(218, 241, 255);
   border-radius: 10px;
 }
 
@@ -59,7 +59,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  padding: 10px;
+  padding: 20px 14px;
   margin-top: 20px;
   border-radius: 5px;
   border: none;
