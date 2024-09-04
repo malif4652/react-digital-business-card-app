@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans";
+  background-color: #3f3f3f;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 4px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 20vh 0;
+  width: 40vw;
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+}
+
+.card--pad {
+  padding: 5%;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile--image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.emailButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailButton--btn {
+  font-size: large;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+}
+
+.emailButton--btn img {
+  width: 25px;
+}
+
+@media (max-width: 786px) {
+  .card {
+    width: 90vw;
+  }
+}
