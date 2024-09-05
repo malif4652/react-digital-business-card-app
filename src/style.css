@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: "DM Sans";
-  background-color: rgb(21, 21, 21);
+  background-color: #272828;
 }
 
 h1,
@@ -28,9 +28,11 @@ p {
 
 .card {
   margin: 20vh 0;
-  width: 35vw;
-  background-color: rgb(218, 241, 255);
+  width: 40vw;
+  color: black;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
+  box-shadow: 0 0 18px 0 rgba(42, 43, 44, 0.199);
 }
 
 .card--pad {
@@ -44,6 +46,7 @@ p {
 .profile--image {
   width: 100%;
   border-radius: 10px 10px 0 0;
+  padding-bottom: 20px;
 }
 
 .emailButton {
@@ -61,11 +64,11 @@ p {
   gap: 5px;
   padding: 20px 14px;
   margin-top: 20px;
+  border: 1px solid black;
   border-radius: 5px;
-  border: none;
   font-weight: 600;
-  background-color: rgba(0, 0, 0, 0.922);
-  color: white;
+  background-color: rgba(255, 255, 255, 0.913);
+  color: black;
 }
 
 .emailButton--btn img {
