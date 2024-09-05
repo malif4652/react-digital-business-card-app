@@ -80,3 +80,16 @@ p {
     width: 70vw;
   }
 }
+
+.socialIcons {
+  border: 1px solid #272828;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-block: 30px;
+}
+
+.socialIcons img {
+  width: 40px;
+}
